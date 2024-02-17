@@ -29,7 +29,7 @@ I was responsible primarily for creating the "Database, Change User Status, and 
 <h3>Database page</h3>
 <div>
   <figure class="figure w-75 float-end m-3">
-    <img class="img-fluid" src="../img/projects/MOD/MOD_logo.png" alt="MOD Logo">
+    <img class="img-fluid" src="../img/projects/MOD/club_database.png" alt="MOD Club Database">
   </figure>
   <p>The "Database" page was designed to list all the clubs and organizations currently active within the system as slew of cards. These cards wold contain relevant club information such as a club logo, description, interests, homepage, and points of contact. These cards were implemented using a component ClubCard.jsx file which would then be ported into and created for each club loaded onto the page (this method was much more efficient, as the cards were used in other pages as well).</p>
 </div>

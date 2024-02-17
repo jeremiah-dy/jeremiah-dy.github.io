@@ -20,7 +20,7 @@ summary: "Using an open-source breast cancer dataset, I built several classifica
 This project was a final assignment for my Economic Forecasting (ECON 427) class in which we were given the prompt of "create something with data science". To this end, I wanted to try my skills at classification. In this project, I built a linear probability model (LPM), logistic regression (logit), and random forest models to classify whether a patient had a benign or malignant diagnosis.
 
 <h3>Dataset</h3>
-<img class="ui left floated image" src="../img/projects/BC_class_in_R/uci-ml-repo-logo.jpeg" alt="UCI Machine Learning Repository Logo">
+<img class="ui left floated image" src="../img/projects/BC_class_in_R/uci_ml_repo_logo.jpeg" alt="UCI Machine Learning Repository Logo">
 For this project, I used the open-source [Breast Cancer Wisconsisn (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download). This is a dataset comprising of breast cancer tumor data from the UC Irvine Machine Learning repository hosted on [Kaggle.com](https://www.kaggle.com/). Features are computed from digitizing img/projects/BC_class_in_R of a fine needle aspirate (FNA) of a breast mass. These features are descriptors of the cell nuclei displayed in the image. The dataset is also relatively small, comprising of only 569 total entries (357 benign, 212 malignant). It has 32 columns: the first two are ID number and classification (benign/malignant), with the other 30 being calculated mean, standard error, and largest values of each composite image. These values are pre-computed; the original dataset of individual image samples is unavailable.
 
 <h3>Preparatory Analysis</h3>
@@ -29,7 +29,7 @@ Because of the dataset's small size, and partly because I wanted to experiment, 
 One thing to note is that, because of the dataset's small size, it has relatively low external validity and is prone to overfitting. For this reason, this project is used more as an exercise in data science rather than building actually usable models.
 
 <h3>LPM</h3>
-<img class="ui medium right floated image" src="../img/projects/BC_class_in_R/427-lpm.png" alt="LPM Coefficients">
+<img class="ui medium right floated image" src="../img/projects/BC_class_in_R/lpm.png" alt="LPM Coefficients">
 To begin, I made a simple LPM to see which of the included raw features had the most significance. According to the LPM, the _concave points_ and _fractal dimension_ features were the most significant.
 
 <h3>Logit Models</h3>
@@ -39,11 +39,11 @@ Then, I built 5 different logit models, each with a different set of variables. 
 Afterwards, I tried building random forest models for both probability and classification. These forests build on the largest set of features and the split rule was the Gini Impurity. and were evaluated on a 5-fold cross-validation RMSE (for the probability forest) and a confusion matrix (for the classification forest).
 
 <h3>CV RMSE</h3>
-<img class="ui medium right floated image" src="../img/projects/BC_class_in_R/427-models.png" alt="Probability Model Breakdown">
+<img class="ui medium right floated image" src="../img/projects/BC_class_in_R/models.png" alt="Probability Model Breakdown">
 In terms of cross-validated RMSE, the LASSO model performed the best, followed by random forest. Interestingly, the next best model was _logit2_ with 20 predictors, which is similar in number to the LASSO-built model with 17 predictors.
 
 <h3>Confusion Matrices</h3>
-<div><div style="width:50%; float: left;"><img src="../img/projects/BC_class_in_R/427-LASSO-confusion-matrix.png" alt="LASSO Confusion Matrix"><h5>LASSO Model Confusion Matrix</h5></div><div style="width: 50%; float: right;"><img src="../img/projects/BC_class_in_R/427-rf-confusion-matrix.png" alt="Random Forest Confusion Matrix"><h5>Random Forest Confusion Matrix</h5></div></div>
+<div><div style="width:50%; float: left;"><img src="../img/projects/BC_class_in_R/LASSO_confusion_matrix.png" alt="LASSO Confusion Matrix"><h5>LASSO Model Confusion Matrix</h5></div><div style="width: 50%; float: right;"><img src="../img/projects/BC_class_in_R/rf_confusion_matrix.png" alt="Random Forest Confusion Matrix"><h5>Random Forest Confusion Matrix</h5></div></div>
 <br>
 <br>
 The confusion matrix for the LASSO model was calculated with a naive threshold of 0.416, which was the mean predicted probability value. When comparing the two, the LASSO model outperformed the random forest classifier with a F1 score of 0.95744 against the random forest F1 score of 0.93104.

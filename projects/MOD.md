@@ -17,7 +17,7 @@ summary: "Working with four other of my classmates, we programmed a simple websi
 
 <h2>Purpose and Overview</h2>
 <div>
-  <figure class="figure w-50 float-start m-3">
+  <figure class="figure w-25 float-start m-3">
     <img class="img-fluid" src="../img/projects/MOD/MOD_logo.png" alt="MOD Logo">
   </figure>
   <p>The purpose of this project was to create a "one-stop-shop" directory for the vast number of clubs and organizations active on the University of Hawaii: Manoa campus. A student would log into the database using their unique school ID, then be able to browse the catalog of organizations, either from accessing the full list or filtering by interest. Clubs would be mutable by specific students denoted as "club-admins", and staff (or anyone else with administrator privileges) would not only be able to edit any club information but also to change students' privileges (regular user or club-admin).</p>
@@ -28,7 +28,7 @@ I was responsible primarily for creating the "Database, Change User Status, and 
 
 <h3>Database page</h3>
 <div>
-  <figure class="figure w-75 float-end m-3">
+  <figure class="figure w-50 float-end m-3">
     <img class="img-fluid" src="../img/projects/MOD/club_database.png" alt="MOD Club Database">
   </figure>
   <p>The "Database" page was designed to list all the clubs and organizations currently active within the system as slew of cards. These cards wold contain relevant club information such as a club logo, description, interests, homepage, and points of contact. These cards were implemented using a component ClubCard.jsx file which would then be ported into and created for each club loaded onto the page (this method was much more efficient, as the cards were used in other pages as well).</p>
@@ -36,7 +36,7 @@ I was responsible primarily for creating the "Database, Change User Status, and 
 
 <h3>Change User Status page</h3>
 <div>
-  <figure class="figure w-75 float-start m-3">
+  <figure class="figure w-50 float-start m-3">
     <img class="img-fluid" src="../img/projects/MOD/user_status.png" alt="MOD Change User Status">
   </figure>
   <p>The "Change User Status" page was designed to for administrators to be able to change the role of a designated user from 'user' (basic level), 'club-admin' (mid-level), and 'admin' (top level). Once valid information is received in the form, the data is then processed using a Meteor.method located in Methods.js that changes the role of the designated user and additionally sets that user as a club-admin, if that user has the appropriate credentials and a club(s) is provided.</p>
@@ -45,7 +45,7 @@ I was responsible primarily for creating the "Database, Change User Status, and 
 
 <h3>Edit Interests page</h3>
 <div>
-  <figure class="figure w-75 float-end m-3">
+  <figure class="figure w-50 float-end m-3">
     <img class="img-fluid" src="../img/projects/MOD/interests_admin.png" alt="MOD Edit Interests">
   </figure>
   <p>The "Edit Interests" page was designed for administrators to view all the interests currently accessible for clubs and users to add to their profiles. In addition, this page also allows for the creation and deletion of these interests. In both cases, Meteor.method (from Methods.js) was implemented to process the data into MongoDB collections. In the case of the latter, deletion will cause a system-wide purge of any reference to that specific interests across all users and organizations.</p>

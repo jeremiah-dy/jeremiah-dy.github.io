@@ -10,8 +10,8 @@
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jeremiahkady", "url": "https://github.com/jeremiahkady" },
-      { "network": "linkedin", "username": "jeremiahkady", "url": "www.linkedin.com/in/jeremiahkady" },
-      { "network": "slack", "username": "jeremiahkady", "url": "www.linkedin.com/in/jeremiahkady" }
+      { "network": "linkedin", "username": "Jeremiah Dy", "url": "https://www.linkedin.com/in/jeremiahkady" },
+      { "network": "slack", "username": "jdy808", "url": "https://hawaii.slack.com/team/U02UAQ2A1T3" }
     ]
   },
   "interests": [
@@ -33,7 +33,7 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
+      "institution": "University of Hawai'i, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2024), Honors",
       "studyType": "B.S.",
       "startDate": "2020-08-01",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "company": "University of Hawaii, Honolulu, HI",
+      "company": "University of Hawai'i, Honolulu, HI",
       "position": "Tutor II",
       "phone number": "(808) 956-4679",
       "startDate": "2022-01-10",
@@ -100,8 +100,8 @@
     {
       "title": "Regents Scholarship",
       "date": "2020",
-      "awarder": "University of Hawaii at Manoa",
-      "summary": "A four-year tuition waver scholarship awarded to incoming freshmen who complete a rigorous high school curriculum with a minimum overall GPA of 3.5 at a Hawai'i high school. Addtionally, reciepients should have remarkable extracurricular activities and a total SAT score of at least 1340 or combined ACT score of at least 29. Regent scholars must maintain full-time student status (as defined via federal definition) with at least a 3.2 GPA in all semesters."
+      "awarder": "University of Hawai'i",
+      "summary": "A four-year tuition waver scholarship awarded to incoming high-achieving freshmen with semesterly payments of ~$6,000 over eight semesters."
     }
   ],
   "references": [

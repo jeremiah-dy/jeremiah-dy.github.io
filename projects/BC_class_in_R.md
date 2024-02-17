@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/projects/BC_class_in_R/r-language-logo.jpeg
+image: img/projects/BC_class_in_R/r_language_logo.jpeg
 title: Breast Cancer Classification in R
 permalink: projects/breast-cancer-classification-in-r
 date: 2022-12-07

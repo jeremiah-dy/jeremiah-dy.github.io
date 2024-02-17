@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/projects/MOD/MOD_logo.png
 title: "Manoa Organization Database"
-date: "May 10, 2022"
+date: "2022, May 10"
 published: true
 labels:
   - JavaScript

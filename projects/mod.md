@@ -23,15 +23,17 @@ The purpose of this project was to create a "one-stop-shop" directory for the va
 I was responsible primarily for creating the "Database, Change User Status, and Edit Interests" pages (the latter of which are only accessible to those with administrator privileges) and any components/methods they would need to run. Like with any project, some little tasks, such as debugging or project maintenance, are shared with all members.
 
 <h3>Database page</h3>
-<img class="ui medium right floated image" src="../img/projects/MOD/club_database.png" alt="MOD Club Database">
+<div>
+<img class="img-fluid" src="../img/projects/MOD/club_database.png" alt="MOD Club Database">
 The "Database" page was designed to list all the clubs and organizations currently active within the system as slew of cards. These cards wold contain relevant club information such as a club logo, description, interests, homepage, and points of contact. These cards were implemented using a component ClubCard.jsx file which would then be ported into and created for each club loaded onto the page (this method was much more efficient, as the cards were used in other pages as well).
+</div>
 
 <h3>Change User Status page</h3>
-<img class="ui medium left floated image" src="../img/projects/MOD/user_status.png" alt="MOD Change User Status">
+<img class="img-fluid" src="../img/projects/MOD/user_status.png" alt="MOD Change User Status">
 The "Change User Status" page was designed to for administrators to be able to change the role of a designated user from 'user' (basic level), 'club-admin' (mid-level), and 'admin' (top level). Once valid information is received in the form, the data is then processed using a Meteor.method located in Methods.js that changes the role of the designated user and additionally sets that user as a club-admin, if that user has the appropriate credentials and a club(s) is provided.
 
 <h3>Edit Interests page</h3>
-<img class="ui medium right floated image" src="../img/projects/MOD/interests_admin.png" alt="MOD Edit Interests">
+<img class="img-fluid" src="../img/projects/MOD/interests_admin.png" alt="MOD Edit Interests">
 The "Edit Interests" page was designed for administrators to view all the interests currently accessible for clubs and users to add to their profiles. In addition, this page also allows for the creation and deletion of these interests. In both cases, Meteor.method (from Methods.js) was implemented to process the data into MongoDB collections. In the case of the latter, deletion will cause a system-wide purge of any reference to that specific interests across all users and organizations.
 
 <h2>Takeaways</h2>

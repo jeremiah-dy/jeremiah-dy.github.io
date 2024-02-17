@@ -16,7 +16,7 @@ summary: "Working with four other of my classmates, we programmed a simple websi
 ---
 
 <h2>Purpose and Overview</h2>
-<img class="ui left floated image" src="../img/projects/MOD/MOD_logo.png" alt="MOD Logo">
+<img class="img-fluid" src="../img/projects/MOD/MOD_logo.png" alt="MOD Logo">
 The purpose of this project was to create a "one-stop-shop" directory for the vast number of clubs and organizations active on the University of Hawaii: Manoa campus. A student would log into the database using their unique school ID, then be able to browse the catalog of organizations, either from accessing the full list or filtering by interest. Clubs would be mutable by specific students denoted as "club-admins", and staff (or anyone else with administrator privileges) would not only be able to edit any club information but also to change students' privileges (regular user or club-admin).
 
 <h2>My contributions</h2>

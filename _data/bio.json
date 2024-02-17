@@ -10,33 +10,33 @@
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jeremiahkady", "url": "https://github.com/jeremiahkady" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "www.linkedin.com/in/jeremiahkady" },
-      { "network": "indeed", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "linkedin", "username": "jeremiahkady", "url": "www.linkedin.com/in/jeremiahkady" },
+      { "network": "slack", "username": "jeremiahkady", "url": "www.linkedin.com/in/jeremiahkady" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Data Science" },
+    { "name": "Software Engineering" },
+    { "name": "Machine Learning" },
+    { "name": "Database Management" },
+    { "name": "High Performance Computings" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "Python", "R", "C++", "Java", "Javascript", "AFSIM", "HTML & CSS" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Windows", "Git/GitHub/Gitlab", "Microsoft Office" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2024), Honors",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2020-08-01",
       "endDate": "Present",
       "courses": [
       ]
@@ -44,69 +44,64 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "The MITRE Corporation",
+      "position": "Computer Science Intern",
+      "startDate": "2023-05-22",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Computer science intern primarily focused on developing C-based and Python scripts",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Utilize AFSIM software to create extensible models and simulation output data",
+        "Develop Python scripts to run large design of experiments",
+        "Leverage a high-performance computing cluster to run large jobs in parallel",
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Baskin Robbins",
+      "position": "Manager",
+      "phone number": "(808) 674-0131",
+      "startDate": "2017-03-12",
+      "endDate": "2023-10-27",
+      "summary": "Team leader and on-shift manager",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Promoted from previous Shift Leader position",
+        "Organize and maintain inventory",
+        "Teach new employees the basic recipes and skills",
+        "Customer service and conflict resolution"
+      ]
+    },
+    {
+      "company": "University of Hawaii, Honolulu, HI",
+      "position": "Tutor II",
+      "phone number": "(808) 956-4679",
+      "startDate": "2022-01-10",
+      "endDate": "2022-05-13",
+      "summary": "Grader and TA for MATH 307",
+      "highlights": [
+        "Grading student assignments and providing feedback",
+        "One-on-one meetings with students as requested",
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "Hawai'i Foodbank",
+      "website": "https://hawaiifoodbank.org/",
+      "position": "Volunteer",
+      "startDate": "2022-06-17",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Occasional volunteer at food distribution events across O'ahu",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Sort, pack, and offload food to families that drive-by",
+        "Volunteered at multiple location over volunteer history, including Lighthouse Outreach-Waiphu and King's Chapel Outreach-Hawai'i Kai"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Regents Scholarship",
+      "date": "2020",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "A four-year tuition waver scholarship awarded to incoming freshmen who complete a rigorous high school curriculum with a minimum overall GPA of 3.5 at a Hawai'i high school. Addtionally, reciepients should have remarkable extracurricular activities and a total SAT score of at least 1340 or combined ACT score of at least 29. Regent scholars must maintain full-time student status (as defined via federal definition) with at least a 3.2 GPA in all semesters."
     }
   ],
   "references": [

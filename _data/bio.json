@@ -9,7 +9,7 @@
     "summary": "I am studying for a B.S. in Computer Science with a concentration in data science at the University of Hawaii's Department of Information and Computer Sciences. I expect to graduate in Spring, 2024.",
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "jeremiahkady", "url": "https://github.com/jeremiahkady" },
+      { "network": "github", "username": "jeremiahkady", "url": "https://github.com/jeremiahkady?tab=repositories" },
       { "network": "linkedin", "username": "Jeremiah Dy", "url": "https://www.linkedin.com/in/jeremiahkady" },
       { "network": "slack", "username": "jdy808", "url": "https://hawaii.slack.com/team/U02UAQ2A1T3" }
     ]

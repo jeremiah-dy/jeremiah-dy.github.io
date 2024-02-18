@@ -18,8 +18,7 @@ summary: "Using an open-source breast cancer dataset, I built several classifica
 <h2>Purpose and Overview</h2>
 This project was a final assignment for my Economic Forecasting (ECON 427) class in which we were given the prompt of "create something with data science". To this end, I wanted to try my skills at classification. In this project, I built a linear probability model (LPM), logistic regression (logit), and random forest models to classify whether a patient had a benign or malignant diagnosis.
 
-
-<div style="height:270px;">
+<div style="height:250px;">
 <h3>Dataset</h3>
 <div>
   <figure class="figure w-20 float-start m-2">
@@ -35,7 +34,7 @@ Because of the dataset's small size, and partly because I wanted to experiment, 
 One thing to note is that, because of the dataset's small size, it has relatively low external validity and is prone to overfitting. For this reason, this project is used more as an exercise in data science rather than building actually usable models.
 
 <h3>LPM</h3>
-<img class="img-fluid center-block" src="../img/projects/BC_class_in_R/lpm.png" alt="LPM Coefficients">
+<center><img class="img-fluid" src="../img/projects/BC_class_in_R/lpm.png" alt="LPM Coefficients"></center>
 <p>To begin, I made a simple LPM to see which of the included raw features had the most significance. According to the LPM, the _concave points_ and _fractal dimension_ features were the most significant.</p>
 
 <h3>Logit Models</h3>
@@ -44,7 +43,7 @@ Then, I built 5 different logit models, each with a different set of variables. 
 <h3>Random Forests</h3>
 Afterwards, I tried building random forest models for both probability and classification. These forests build on the largest set of features and the split rule was the Gini Impurity. and were evaluated on a 5-fold cross-validation RMSE (for the probability forest) and a confusion matrix (for the classification forest).
 
-<div style="height:330px;">
+<div style="height:300px;">
 <h3>CV RMSE</h3>
 <div>
   <figure class="figure w-30 float-start m-2">

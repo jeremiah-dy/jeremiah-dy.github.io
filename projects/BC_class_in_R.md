@@ -19,7 +19,7 @@ summary: "Using an open-source breast cancer dataset, I built several classifica
 This project was a final assignment for my Economic Forecasting (ECON 427) class in which we were given the prompt of "create something with data science". To this end, I wanted to try my skills at classification. In this project, I built a linear probability model (LPM), logistic regression (logit), and random forest models to classify whether a patient had a benign or malignant diagnosis.
 
 
-<div style="height:275px;">
+<div style="height:270px;">
 <h3>Dataset</h3>
 <div>
   <figure class="figure w-20 float-start m-2">
@@ -35,11 +35,8 @@ Because of the dataset's small size, and partly because I wanted to experiment, 
 One thing to note is that, because of the dataset's small size, it has relatively low external validity and is prone to overfitting. For this reason, this project is used more as an exercise in data science rather than building actually usable models.
 
 <h3>LPM</h3>
-<div>
-  <div class="row text-center" style="width:400px; height:500px;">
-    <img class="img-fluid" src="../img/projects/BC_class_in_R/lpm.png" alt="LPM Coefficients">
-  </div>
-  <p>To begin, I made a simple LPM to see which of the included raw features had the most significance. According to the LPM, the _concave points_ and _fractal dimension_ features were the most significant.</p>
+<img class="img-fluid center-block" src="../img/projects/BC_class_in_R/lpm.png" alt="LPM Coefficients">
+<p>To begin, I made a simple LPM to see which of the included raw features had the most significance. According to the LPM, the _concave points_ and _fractal dimension_ features were the most significant.</p>
 
 <h3>Logit Models</h3>
 Then, I built 5 different logit models, each with a different set of variables. For example, the first logit model, _logit0_, would be built only on the provided raw feature variables. Each subsequent model would be given more features obtained through the preparatory feature expansion. Using the final, and largest, set of features, I used the LASSO algorithm of feature selection to build a sixth model. Finally, all of the models were evaluated on 5-fold cross-validation RMSE. Additionally, a confusion matrix was computed for the best logistic regression model (LASSO) and compared to the random forest classifier discussed below. 
@@ -47,12 +44,14 @@ Then, I built 5 different logit models, each with a different set of variables. 
 <h3>Random Forests</h3>
 Afterwards, I tried building random forest models for both probability and classification. These forests build on the largest set of features and the split rule was the Gini Impurity. and were evaluated on a 5-fold cross-validation RMSE (for the probability forest) and a confusion matrix (for the classification forest).
 
+<div style="height:330px;">
 <h3>CV RMSE</h3>
 <div>
   <figure class="figure w-30 float-start m-2">
     <img class="img-fluid" src="../img/projects/BC_class_in_R/models.png" alt="Probability Model Breakdown">
   </figure>
   <p>In terms of cross-validated RMSE, the LASSO model performed the best, followed by random forest. Interestingly, the next best model was _logit2_ with 20 predictors, which is similar in number to the LASSO-built model with 17 predictors.</p>
+</div>
 </div>
 
 <h3>Confusion Matrices</h3>

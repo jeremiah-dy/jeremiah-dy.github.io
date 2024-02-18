@@ -18,7 +18,7 @@ summary: "Using an open-source breast cancer dataset, I built several classifica
 <h2>Purpose and Overview</h2>
 This project was a final assignment for my Economic Forecasting (ECON 427) class in which we were given the prompt of "create something with data science". To this end, I wanted to try my skills at classification. In this project, I built a linear probability model (LPM), logistic regression (logit), and random forest models to classify whether a patient had a benign or malignant diagnosis.
 
-<div style="height:250px;">
+<div style="height:260px;">
 <h3>Dataset</h3>
 <div>
   <figure class="figure w-20 float-start m-2">

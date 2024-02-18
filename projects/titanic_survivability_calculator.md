@@ -59,6 +59,6 @@ However, while none of the individual technical elements were particularly diffi
 <h2>Links</h2>
 The open-source Titanic survivor dataset can be found [here](https://data.world/nrippner/titanic-disaster-dataset).
 
-For more information, visit the [Titanic Survivability Calculator webpage](https://jeremiah-dy.github.io/484_final_project/).
+For more information, visit the [Titanic Survivability Calculator webpage]([https://jeremiah-dy.github.io/484_final_project/](https://jeremiahkady.github.io/484_final_project/)).
 
 View the [source code](https://github.com/jeremiah-dy/484_final_project).

@@ -24,12 +24,10 @@ summary: "Working with four other of my classmates, we programmed a simple websi
 </div>
 </div>
 
-<div style="height:100px;">
 <h2>My contributions</h2>
 I was responsible primarily for creating the "Database, Change User Status, and Edit Interests" pages (the latter of which are only accessible to those with administrator privileges) and any components/methods they would need to run. Like with any project, some little tasks, such as debugging or project maintenance, are shared with all members.
-</div>
 
-<div style="height:750px;">
+<div style="height:650px;">
 <h3>Database page</h3>
 <div>
   <figure class="figure w-65 float-end">
@@ -39,7 +37,7 @@ I was responsible primarily for creating the "Database, Change User Status, and 
 </div>
 </div>
 
-<div style="height:750px;">
+<div style="height:680px;">
 <h3>Change User Status page</h3>
 <div>
   <figure class="figure w-65 float-start">
@@ -49,7 +47,7 @@ I was responsible primarily for creating the "Database, Change User Status, and 
 </div>
 </div>
 
-<div style="height:750px;">
+<div style="height:600px;">
 <h3>Edit Interests page</h3>
 <div>
   <figure class="figure w-65 float-end">

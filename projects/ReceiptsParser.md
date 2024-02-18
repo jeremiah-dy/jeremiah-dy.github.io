@@ -3,8 +3,8 @@ layout: project
 type: project
 image: img/projects/MOD/MOD_logo.png
 title: "Recipts Parser using ChatGPT"
-date: 2022-05-10
-published: true
+date: 2023-12-11
+published: false
 labels:
   - OpenAI
   - Pydantic

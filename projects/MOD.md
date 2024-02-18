@@ -27,7 +27,7 @@ summary: "Working with four other of my classmates, we programmed a simple websi
 <h2>My contributions</h2>
 I was responsible primarily for creating the "Database, Change User Status, and Edit Interests" pages (the latter of which are only accessible to those with administrator privileges) and any components/methods they would need to run. Like with any project, some little tasks, such as debugging or project maintenance, are shared with all members.
 
-<div style="height:650px;">
+<div style="height:700px;">
 <h3>Database page</h3>
 <div>
   <figure class="figure w-65 float-end">

@@ -71,8 +71,6 @@ Afterwards, I tried building random forest models for both probability and class
 <br>
 <br>
 <br>
-<br>
-<br>
 The confusion matrix for the LASSO model was calculated with a naive threshold of 0.416, which was the mean predicted probability value. When comparing the two, the LASSO model outperformed the random forest classifier with a F1 score of 0.95744 against the random forest F1 score of 0.93104.
 
 <h2>Conclusions</h2>

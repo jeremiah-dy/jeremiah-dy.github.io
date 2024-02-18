@@ -8,7 +8,7 @@ date: 2022-12-07
 labels:
   - R
   - Machine Learning
-  - Classification
+  - Binary Classification
   - LPM
   - Logistic Regression
   - LASSO

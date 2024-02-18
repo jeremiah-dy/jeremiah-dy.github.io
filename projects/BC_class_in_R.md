@@ -54,7 +54,7 @@ Afterwards, I tried building random forest models for both probability and class
 </div>
 
 <h3>Confusion Matrices</h3>
-<div><div style="width:50%; float: left;"><img src="../img/projects/BC_class_in_R/LASSO_confusion_matrix.png" alt="LASSO Confusion Matrix"><h5>LASSO Model Confusion Matrix</h5></div><div style="width: 50%; float: right;"><img src="../img/projects/BC_class_in_R/rf_confusion_matrix.png" alt="Random Forest Confusion Matrix"><h5>Random Forest Confusion Matrix</h5></div></div>
+<div><div style="width:50%; height:150px; float: left;"><img src="../img/projects/BC_class_in_R/LASSO_confusion_matrix.png" alt="LASSO Confusion Matrix"><h5>LASSO Model Confusion Matrix</h5></div><div style="width: 50%; height:150px; float: right;"><img src="../img/projects/BC_class_in_R/rf_confusion_matrix.png" alt="Random Forest Confusion Matrix"><h5>Random Forest Confusion Matrix</h5></div></div>
 <br>
 <br>
 The confusion matrix for the LASSO model was calculated with a naive threshold of 0.416, which was the mean predicted probability value. When comparing the two, the LASSO model outperformed the random forest classifier with a F1 score of 0.95744 against the random forest F1 score of 0.93104.

@@ -7,7 +7,7 @@ permalink: projects/breast-cancer-classification-in-r
 date: 2022-12-07
 labels:
   - R
-  - Probability
+  - Machine Learning
   - Classification
   - LPM
   - Logistic Regression

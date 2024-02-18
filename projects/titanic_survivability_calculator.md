@@ -39,8 +39,8 @@ For me, this project was an exercise in website development and adaptability. Th
 However, while none of the individual technical elements were particularly difficult, the collaboration aspect, specifically when one or more members are absent for a given time, was quite challenging. The fact that I had to finalize the LPM when our team member became ill forced me to become adaptable to the situation at hand. To mitigate the problem, I had to think of unorthodox solutions, such as hard-coding the LPM from R to JavaScript and adapting the LPM inputs to work through JavaScript.
 
 <h2>Links</h2>
+Try out the calculator [here](https://jeremiahkady.github.io/484_final_project/).
+
 The open-source Titanic survivor dataset can be found [here](https://data.world/nrippner/titanic-disaster-dataset).
 
-For more information, visit the [Titanic Survivability Calculator webpage]([https://jeremiah-dy.github.io/484_final_project/](https://jeremiahkady.github.io/484_final_project/)).
-
-View the [source code](https://github.com/jeremiah-dy/484_final_project).
+View the [source code](https://github.com/jeremiahkady/484_final_project).

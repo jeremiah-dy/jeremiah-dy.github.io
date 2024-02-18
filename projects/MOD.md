@@ -17,19 +17,19 @@ summary: "Working with four other of my classmates, we programmed a simple websi
 <div style="height:200px;">
 <h2>Purpose and Overview</h2>
 <div>
-  <figure class="figure w-25 float-start m-1">
+  <figure class="figure w-20 float-start m-2">
     <img class="img-fluid" src="../img/projects/MOD/MOD_logo.png" alt="MOD Logo">
   </figure>
   <p>The purpose of this project was to create a "one-stop-shop" directory for the vast number of clubs and organizations active on the University of Hawaii: Manoa campus. A student would log into the database using their unique school ID, then be able to browse the catalog of organizations, either from accessing the full list or filtering by interest. Clubs would be mutable by specific students denoted as "club-admins", and staff (or anyone else with administrator privileges) would not only be able to edit any club information but also to change students' privileges (regular user or club-admin).</p>
 </div>
 </div>
 
-<div style="height:200px;">
+<div style="height:100px;">
 <h2>My contributions</h2>
 I was responsible primarily for creating the "Database, Change User Status, and Edit Interests" pages (the latter of which are only accessible to those with administrator privileges) and any components/methods they would need to run. Like with any project, some little tasks, such as debugging or project maintenance, are shared with all members.
 </div>
 
-<div style="height:800px;">
+<div style="height:750px;">
 <h3>Database page</h3>
 <div>
   <figure class="figure w-65 float-end">
@@ -39,7 +39,7 @@ I was responsible primarily for creating the "Database, Change User Status, and 
 </div>
 </div>
 
-<div style="height:800px;">
+<div style="height:750px;">
 <h3>Change User Status page</h3>
 <div>
   <figure class="figure w-65 float-start">
@@ -49,7 +49,7 @@ I was responsible primarily for creating the "Database, Change User Status, and 
 </div>
 </div>
 
-<div style="height:800px;">
+<div style="height:750px;">
 <h3>Edit Interests page</h3>
 <div>
   <figure class="figure w-65 float-end">

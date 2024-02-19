@@ -17,7 +17,7 @@ labels:
   - FAISS
 summary: "Working with three other of my ICS 438 classmates, we constructed a program which would parse the raw text obtained from using optical character recognition (OCR) on random consumer receipts into JSON objects using OpenAI's large language model, ChatGPT. It would then provide analytics on the JSON data and use it to train a KNN model from the FAISS library (open-sourced from Facebook AI) to classify new receipts into categories. The data from analysis would be used to create a simple visualization using Streamlit."
 ---
-<div style="height:250px;">
+<div style="height:275px;">
 <h2>Project Overview</h2>
 <div>
   <figure class="figure w-50 float-start m-2">
@@ -30,9 +30,9 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 
 <div style="height:500px;">
 <h3>Section I: Python Prompt Generation</h3>
-<div style="height:100px;">
+<div>
   <figure class="figure w-20 float-start m-2">
-    <img class="img-fluid" src="../img/projects/ReceiptsParser/python_logo.jpg" alt="Python Logo">
+    <img style="height:50px;" src="../img/projects/ReceiptsParser/python_logo.jpg" alt="Python Logo">
   </figure>
 </div>
 <p>As stated above, the first section's main goal was to construct a Python program that would generate prompts to be used in ChatGPT 4.0. These prompts would guide ChatGPT 4.0 to convert raw OCR (optical character recognition) text which was scanned from a collection of receipts into JSON objects for easier analysis and storage. Upon receiving the JSON object of a given OCR text input, the program would save the JSON objects into a single file, with a single JSON object stored per line.</p>

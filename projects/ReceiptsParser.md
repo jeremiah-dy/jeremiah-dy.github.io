@@ -27,7 +27,7 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 </div>
 </div>
 
-<div style="height:175px;">
+<div style="height:190px;">
 <h3>Section I: Python Prompt Generation</h3>
 <div>
   <figure class="figure w-20 float-start">

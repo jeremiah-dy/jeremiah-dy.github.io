@@ -27,17 +27,17 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 </div>
 </div>
 
-<div style="height:225px;">
+<div style="height:200px;">
 <h3>Section I: Python Prompt Generation</h3>
 <div>
   <figure class="figure w-20 float-start m-2">
-    <img style="height:150px;" src="../img/projects/ReceiptsParser/python_logo.jpg" alt="Python Logo">
+    <img style="height:125px;" src="../img/projects/ReceiptsParser/python_logo.jpg" alt="Python Logo">
   </figure>
 </div>
 <p>As stated above, the first section's main goal was to construct a Python program that would generate prompts to be used in ChatGPT 4.0. These prompts would guide ChatGPT 4.0 to convert raw OCR (optical character recognition) text which was scanned from a collection of receipts into JSON objects for easier analysis and storage. Upon receiving the JSON object of a given OCR text input, the program would save the JSON objects into a single file, with a single JSON object stored per line.</p>
 </div>
 
-<div style="height:200px;">
+<div style="height:180px;">
 <h3>Section II: FAISS Classification and Analytics</h3>
 <div>
   <figure class="figure w-20 float-end m-2">
@@ -57,10 +57,10 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 </div>
 </div>
 
-<div style="height:500px;">
+<div style="height:200px;">
 <h2>My Contributions</h2>
 <div>
-  <figure class="figure w-30 float-start m-2">
+  <figure class="figure w-20 float-start m-2">
     <img class="img-fluid" src="../img/projects/ReceiptsParser/pydantic_logo.png" alt="Pydantic Logo">
   </figure>
 <p>As previously mentioned, I was the lead on the first section of the project and had supporting roles on the other sections. As lead, I was in charge of constructing the majority of the Python code to construct the ChatGPT 4.0 prompts. To this end, I used Pydantic, a data validation library for Python, to validate the data to be in the proper format. Pydantic base models were used to formulate a generic idea of what the JSON object should look like, and the information from these models would be used to create format instructions which were fed into ChatGPT. Additionally, once ChatGPT finished generating a JSON object, the output would be piped into a Pydantic validator object which would ensure that any mistakes in data conversion from ChatGPT were fixed, after which the JSON object would be printed into the output file.</p>

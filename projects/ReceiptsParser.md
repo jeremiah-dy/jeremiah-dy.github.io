@@ -57,11 +57,11 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 </div>
 </div>
 
-<div style="height:200px;">
+<div style="height:225px;">
 <h2>My Contributions</h2>
 <div>
-  <figure class="figure w-20 float-start m-2">
-    <img class="img-fluid" src="../img/projects/ReceiptsParser/pydantic_logo.png" alt="Pydantic Logo">
+  <figure class="figure w-20 float-start">
+    <img style="height:125px;" src="../img/projects/ReceiptsParser/pydantic_logo.png" alt="Pydantic Logo">
   </figure>
 <p>As previously mentioned, I was the lead on the first section of the project and had supporting roles on the other sections. As lead, I was in charge of constructing the majority of the Python code to construct the ChatGPT 4.0 prompts. To this end, I used Pydantic, a data validation library for Python, to validate the data to be in the proper format. Pydantic base models were used to formulate a generic idea of what the JSON object should look like, and the information from these models would be used to create format instructions which were fed into ChatGPT. Additionally, once ChatGPT finished generating a JSON object, the output would be piped into a Pydantic validator object which would ensure that any mistakes in data conversion from ChatGPT were fixed, after which the JSON object would be printed into the output file.</p>
 </div>

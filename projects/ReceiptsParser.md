@@ -41,17 +41,17 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 <h3>Section II: FAISS Classification and Analytics</h3>
 <div>
   <figure class="figure w-20 float-end m-2">
-    <img style="height:200px;" src="../img/projects/ReceiptsParser/meta_logo_with_label.png" alt="Meta Logo">
+    <img style="height:100px;" src="../img/projects/ReceiptsParser/meta_logo_with_label.png" alt="Meta Logo">
   </figure>
 <p>Afterwards, the second section would read in the newly created file with the output JSON objects and use the open-source FAISS (Facebook AI Similarity Search) library from Meta to implement a KNN search algorithm which would classify the items and vendors in receipts into categories such as "Food Products, Beverages, and Electronics" for items and "Grocery and Supermarkets, Restaurants and Supermarkets, and Health and Beauty" for vendors. Afterwards, the classified JSON objects were analyzed for summary statstics such as frequency, mean, and totals of items per category per vendor.</p>
 </div>
 </div>
 
-<div style="height:500px;">
+<div style="height:250px;">
 <h3>Section III: Data Visualization using Streamlit</h3>
 <div>
   <figure class="figure w-30 float-start m-2">
-    <img style="height:200px;" src="../img/projects/ReceiptsParser/streamlit_logo.png" alt="Streamlit Logo">
+    <img style="height:150px;" src="../img/projects/ReceiptsParser/streamlit_logo.png" alt="Streamlit Logo">
   </figure>
 <p>Lastly, the third section would visualize the information gained from the data analysis in the previous section. This visualization was constructed using Streamlit, an application framework that enables easier front-end development. The visualization interactable, allowing viewers to zoom in and out on certain charts, and is also equipped with annotations describing the different charts and their meanings. You can view the data visualization [here](https://receipt-classification-visualization.streamlit.app/).</p>
 </div>

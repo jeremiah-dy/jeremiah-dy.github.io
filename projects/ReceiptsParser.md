@@ -20,17 +20,17 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 <div style="height:275px;">
 <h2>Project Overview</h2>
 <div>
-  <figure class="figure w-50 float-start m-2">
+  <figure class="figure w-50 float-start">
     <img class="img-fluid" src="../img/projects/ReceiptsParser/chatgpt4_logo.png" alt="ChatGPT 4.0 Logo">
   </figure>
   <p>The overall goal of this project was to convert raw optical character recognition text (OCR for short) obtained from a collection of receipts into JSON objects, from which analysis and data visualiation could be performed. The project can be roughly divided into three main sections: the development of the prompt generation code, the development of the classification and analysis code, and the visualization of the data. I was the lead on the first section of the project and supported my classmates on the other two sections.</p>
 </div>
 </div>
 
-<div style="height:200px;">
+<div style="height:175px;">
 <h3>Section I: Python Prompt Generation</h3>
 <div>
-  <figure class="figure w-20 float-start m-2">
+  <figure class="figure w-20 float-start">
     <img style="height:125px;" src="../img/projects/ReceiptsParser/python_logo.jpg" alt="Python Logo">
   </figure>
 </div>
@@ -40,7 +40,7 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 <div style="height:180px;">
 <h3>Section II: FAISS Classification and Analytics</h3>
 <div>
-  <figure class="figure w-20 float-end m-2">
+  <figure class="figure w-20 float-end">
     <img style="height:100px;" src="../img/projects/ReceiptsParser/meta_logo_with_label.png" alt="Meta Logo">
   </figure>
 <p>Afterwards, the second section would read in the newly created file with the output JSON objects and use the open-source FAISS (Facebook AI Similarity Search) library from Meta to implement a KNN search algorithm which would classify the items and vendors in receipts into categories such as "Food Products, Beverages, and Electronics" for items and "Grocery and Supermarkets, Restaurants and Supermarkets, and Health and Beauty" for vendors. Afterwards, the classified JSON objects were analyzed for summary statstics such as frequency, mean, and totals of items per category per vendor.</p>
@@ -50,8 +50,8 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 <div style="height:200px;">
 <h3>Section III: Data Visualization using Streamlit</h3>
 <div>
-  <figure class="figure w-30 float-start m-2">
-    <img style="height:125px;" src="../img/projects/ReceiptsParser/streamlit_logo.png" alt="Streamlit Logo">
+  <figure class="figure w-30 float-start">
+    <img style="height:100px;" src="../img/projects/ReceiptsParser/streamlit_logo.png" alt="Streamlit Logo">
   </figure>
 <p>Lastly, the third section would visualize the information gained from the data analysis in the previous section. This visualization was constructed using Streamlit, an application framework that enables easier front-end development. The visualization interactable, allowing viewers to zoom in and out on certain charts, and is also equipped with annotations describing the different charts and their meanings. You can view the data visualization [here](https://receipt-classification-visualization.streamlit.app/).</p>
 </div>

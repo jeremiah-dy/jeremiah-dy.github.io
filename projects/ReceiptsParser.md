@@ -47,7 +47,7 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 </div>
 </div>
 
-<div style="height:200px;">
+<div style="height:180px;">
 <h3>Section III: Data Visualization using Streamlit</h3>
 <div>
   <figure class="figure w-30 float-start">

@@ -51,7 +51,7 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 <h3>Section III: Data Visualization using Streamlit</h3>
 <div>
   <figure class="figure w-30 float-start m-2">
-    <img class="img-fluid" src="../img/projects/ReceiptsParser/streamlit_logo.png" alt="Streamlit Logo">
+    <img style="height:200px;" src="../img/projects/ReceiptsParser/streamlit_logo.png" alt="Streamlit Logo">
   </figure>
 <p>Lastly, the third section would visualize the information gained from the data analysis in the previous section. This visualization was constructed using Streamlit, an application framework that enables easier front-end development. The visualization interactable, allowing viewers to zoom in and out on certain charts, and is also equipped with annotations describing the different charts and their meanings. You can view the data visualization [here](https://receipt-classification-visualization.streamlit.app/).</p>
 </div>

@@ -43,7 +43,7 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 <h3>Section II: FAISS Classification and Analytics</h3>
 <div>
   <figure class="figure w-20 float-end m-2">
-    <img style="height:200px; src="../img/projects/ReceiptsParser/meta_logo_with_label.png" alt="Meta Logo">
+    <img style="height:200px;" src="../img/projects/ReceiptsParser/meta_logo_with_label.png" alt="Meta Logo">
   </figure>
 <p>Afterwards, the second section would read in the newly created file with the output JSON objects and use the open-source FAISS (Facebook AI Similarity Search) library from Meta to implement a KNN search algorithm which would classify the items and vendors in receipts into categories such as "Food Products, Beverages, and Electronics" for items and "Grocery and Supermarkets, Restaurants and Supermarkets, and Health and Beauty" for vendors. Afterwards, the classified JSON objects were analyzed for summary statstics such as frequency, mean, and totals of items per category per vendor.</p>
 </div>

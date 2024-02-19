@@ -27,17 +27,17 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 </div>
 </div>
 
-<div style="height:250px;">
+<div style="height:225px;">
 <h3>Section I: Python Prompt Generation</h3>
 <div>
   <figure class="figure w-20 float-start m-2">
-    <img style="height:200px;" src="../img/projects/ReceiptsParser/python_logo.jpg" alt="Python Logo">
+    <img style="height:150px;" src="../img/projects/ReceiptsParser/python_logo.jpg" alt="Python Logo">
   </figure>
 </div>
 <p>As stated above, the first section's main goal was to construct a Python program that would generate prompts to be used in ChatGPT 4.0. These prompts would guide ChatGPT 4.0 to convert raw OCR (optical character recognition) text which was scanned from a collection of receipts into JSON objects for easier analysis and storage. Upon receiving the JSON object of a given OCR text input, the program would save the JSON objects into a single file, with a single JSON object stored per line.</p>
 </div>
 
-<div style="height:275px;">
+<div style="height:200px;">
 <h3>Section II: FAISS Classification and Analytics</h3>
 <div>
   <figure class="figure w-20 float-end m-2">
@@ -47,11 +47,11 @@ summary: "Working with three other of my ICS 438 classmates, we constructed a pr
 </div>
 </div>
 
-<div style="height:250px;">
+<div style="height:200px;">
 <h3>Section III: Data Visualization using Streamlit</h3>
 <div>
   <figure class="figure w-30 float-start m-2">
-    <img style="height:150px;" src="../img/projects/ReceiptsParser/streamlit_logo.png" alt="Streamlit Logo">
+    <img style="height:125px;" src="../img/projects/ReceiptsParser/streamlit_logo.png" alt="Streamlit Logo">
   </figure>
 <p>Lastly, the third section would visualize the information gained from the data analysis in the previous section. This visualization was constructed using Streamlit, an application framework that enables easier front-end development. The visualization interactable, allowing viewers to zoom in and out on certain charts, and is also equipped with annotations describing the different charts and their meanings. You can view the data visualization [here](https://receipt-classification-visualization.streamlit.app/).</p>
 </div>

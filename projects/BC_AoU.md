@@ -4,7 +4,7 @@ type: project
 image: img/projects/BC_class_in_R/r_language_logo.jpeg
 title: Machine Learning Approaches to Breast Cancer Classification with All of Us Data
 permalink: projects/breast-cancer-classification-aou
-date: 2022-12-07
+date: 2024-05-10
 labels:
   - Python
   - Machine Learning

@@ -2,21 +2,22 @@
 layout: project
 type: project
 image: img/projects/BC_class_in_R/r_language_logo.jpeg
-title: Breast Cancer Classification in R
-permalink: projects/breast-cancer-classification-in-r
+title: Machine Learning Approaches to Breast Cancer Classification with All of Us Data
+permalink: projects/breast-cancer-classification-aou
 date: 2022-12-07
 labels:
-  - R
+  - Python
   - Machine Learning
-  - Binary Classification
-  - LPM
-  - Logistic Regression
-  - LASSO
+  - All of Us Program
+  - MLP
+  - SVC
   - Random Forest
-summary: "Using an open-source breast cancer dataset, I built several classification models and evaluated their performance using the R programming language."
+  - Adaboost
+  - Gradient boosting models
+summary: "The All of Us program is a program organized by the (United States) National Institute of Health which serves to aggregate, anonymize, and make available patient health data for research projects. Using the All of Us database, I built several classification models to predict malignancy in breast cancer patients, as well as compare differences in model performance between two differentiated dataset groups."
 ---
 <h2>Purpose and Overview</h2>
-This project was a final assignment for my Economic Forecasting (ECON 427) class in which we were given the prompt of "create something with data science". To this end, I wanted to try my skills at classification. In this project, I built a linear probability model (LPM), logistic regression (logit), and random forest models to classify whether a patient had a benign or malignant diagnosis.
+This project was my Honors undergraduate thesis at the University of Hawai'i at Mānoa, in which I used Python to prepare and analyze publicly available breast cancer patient data to train machine learning models to predict the malignancy of these patients. The data was sourced using the All of Us program, a program organized by the (United States) National Institute of Health which serves to aggregate, anonymize, and make available patient health data for research projects. This project can be separated into three major stages: data cleaning and preparation, exploratory data analysis (EDA), and model training and evaluation. The machine learning model types used in this study were imported in the sklearn library and include: multilayer perceptron (MLP), support vector machine classifier (SVC), random forest, Adaboost classifier, and gradient boosting classifier.
 
 <div style="height:260px;">
 <h3>Dataset</h3>

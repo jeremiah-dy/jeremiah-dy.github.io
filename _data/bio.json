@@ -6,7 +6,7 @@
     "email": "jeremiah.ka.dy@gmail.com",
     "phone": "808-840-7914",
     "website": "https://jeremiahkady.github.io/",
-    "summary": "I am studying for a B.S. in Computer Science with a concentration in data science at the University of Hawaii's Department of Information and Computer Sciences. I expect to graduate in Spring, 2024.",
+    "summary": "I am a recent B.S. Computer Science graduate of the University of Hawai'i at Manoa, class of 2024. I am currently looking for a entry-level backend developer position and am open to remote work.",
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jeremiahkady", "url": "https://github.com/jeremiahkady" },
@@ -24,7 +24,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "R", "C++", "Java", "Javascript", "AFSIM", "HTML & CSS" ]
+      "keywords": [ "Python", "R", "C++", "SQL", "Java", "Javascript", "AFSIM", "HTML & CSS" ]
     },
     {
       "name": "Toolsets/OS",
@@ -34,10 +34,10 @@
   "education": [
     {
       "institution": "University of Hawai'i, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2024), Honors",
+      "area": "Computer Science, Honors",
       "studyType": "B.S.",
       "startDate": "2020-08-01",
-      "endDate": "Present",
+      "endDate": "2024-05-11",
       "courses": [
       ]
     }
@@ -47,7 +47,7 @@
       "company": "The MITRE Corporation",
       "position": "Computer Science Intern",
       "startDate": "2023-05-22",
-      "endDate": "Present",
+      "endDate": "2024-03-22",
       "summary": "Computer science intern primarily focused on developing C-based and Python scripts",
       "highlights": [
         "Utilize AFSIM software to create extensible models and simulation output data",

@@ -34,11 +34,15 @@
   "education": [
     {
       "institution": "University of Hawai'i, Honolulu, HI",
-      "area": "Computer Science, Honors",
+      "area": "Computer Science, Honors: summa cum laude",
       "studyType": "B.S.",
       "startDate": "2020-08-01",
       "endDate": "2024-05-11",
       "courses": [
+        "Software Engineering",
+        "Data Preprocessing and Analysis",
+        "Machine Learning",
+        "Algorithms"
       ]
     }
   ],

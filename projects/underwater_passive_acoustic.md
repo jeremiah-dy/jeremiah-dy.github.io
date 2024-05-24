@@ -2,19 +2,16 @@
 layout: project
 type: project
 image: img/projects/ReceiptsParser/chatgpt4_logo_square.png
-title: "Receipts Parser using ChatGPT"
-date: 2023-12-11
+title: "Underwater Passive Acoustic Monitoring"
+date: 2024-05-01
 published: true
 labels:
-  - OpenAI
-  - ChatGPT
+  - Raspberry Pi
+  - Hydrophone
   - Python
-  - Pydantic
-  - JSON
-  - Machine Learning
-  - Github
-  - Optical Character Recognition
-  - FAISS
+  - Raspbian
+  - RTC
+  - IQaudIO
 summary: "Working with three other of my ICS 438 classmates, we constructed a program which would parse the raw text obtained from using optical character recognition (OCR) on random consumer receipts into JSON objects using OpenAI's large language model, ChatGPT. It would then provide analytics on the JSON data and use it to train a KNN model from the FAISS library (open-sourced from Facebook AI) to classify new receipts into categories. The data from analysis would be used to create a simple visualization using Streamlit."
 ---
 <div style="height:275px;">

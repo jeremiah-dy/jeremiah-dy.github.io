@@ -26,11 +26,10 @@ This study had two main goals: the first was to successfully train a classificat
 <h3>Dataset</h3>
 <div>
   <figure class="figure w-20 float-start m-2">
-    <img class="img-fluid" src="../img/projects/BC_class_in_R/uci_ml_repo_logo.jpeg" alt="UCI Machine Learning Repository Logo">
+    <img class="img-fluid" src="../img/projects/all_of_us_logo.png" alt="All of Us Logo">
   </figure>
-  <p>For this project, I used anonymized patient data available via the [All of Us program](https://www.researchallofus.org/). More specifically, this project uses the All of Us Registered Tier Dataset v7 availble using the All of Us cloud-computing environment. Cardiovascular health and liquid biopsy data were used to construct the bulk of the training dataset. All of the predicting data was quantitative in nature and selected from the All of Us database using SQL queries. Due to the larger number of entries, data was aggregated on a per-patient/per-year basis. For example, if patient 001 has entries in the years 2000, 2001, 2003, and 2006, they would have four separate entries.</p>
-  <p>Due to grimace grimace grimace
-  </p>
+  <p>For this project, I used anonymized patient data available via the [All of Us program](https://www.researchallofus.org/]. More specifically, this project uses the All of Us Registered Tier Dataset v7 availble using the All of Us cloud-computing environment. Cardiovascular health and liquid biopsy data from both bening and malingnant patients were used to construct the bulk of the training dataset. All of the predicting data was quantitative in nature and selected from the All of Us database using SQL queries. Due to the larger number of entries, data was aggregated on a per-patient/per-year basis. For example, if patient 001 has entries in the years 2000, 2001, 2003, and 2006, they would have four separate entries.</p>
+  <p>Additionally, Fibit data was used to construct more complex datasets. These datasets were smaller than their original counterparts and included several additional training features to test the model performance of these smaller more complex datasets against their larger, simpler counterparts.</p>
 </div>
 </div>
 

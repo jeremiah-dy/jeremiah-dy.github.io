@@ -22,16 +22,9 @@ This project was my Honors undergraduate thesis at the University of Hawai'i at 
 <h3>Specific Aims</h3>
 This study had two main goals: the first was to successfully train a classification model to have an AUC-ROC score of 0.85, which would be indicative a well-trained model, and the second was to compare the model peformance difference between two different types of datasets, a smaller more complex dataset group vs. a relatively larger but simpler dataset group.
 
-<div style="height:260px;">
 <h3>Dataset</h3>
-<div>
-  <figure class="figure w-20 float-start m-2">
-    <img class="img-fluid" src="../img/projects/all_of_us_logo.png" alt="All of Us Logo">
-  </figure>
   <p>For this project, I used anonymized patient data available via the [All of Us program](https://www.researchallofus.org/]. More specifically, this project uses the All of Us Registered Tier Dataset v7 availble using the All of Us cloud-computing environment. Cardiovascular health and liquid biopsy data from both bening and malingnant patients were used to construct the bulk of the training dataset. All of the predicting data was quantitative in nature and selected from the All of Us database using SQL queries. Due to the larger number of entries, data was aggregated on a per-patient/per-year basis. For example, if patient 001 has entries in the years 2000, 2001, 2003, and 2006, they would have four separate entries.</p>
   <p>Additionally, Fibit data was used to construct more complex datasets. These datasets were smaller than their original counterparts and included several additional training features to test the model performance of these smaller more complex datasets against their larger, simpler counterparts.</p>
-</div>
-</div>
 
 <h3>Preparatory Analysis</h3>
 Because of the dataset's small size, and partly because I wanted to experiment, I used feature expansion to test if the logit models trained on more parameters would work better. Furthermore, I used the LASSO algorithm to compute which features, among those from the original features in the dataset and those from feature expansion, would be the most statistically significant in determining diagnosis.

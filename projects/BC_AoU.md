@@ -42,7 +42,7 @@ This project was my Honors undergraduate thesis at the University of Hawai’i a
 
 <h3>Exploratory Data Analysis</h3>
 <p>
-The primary method of exploratory data analysis was the usage of kernel density estimation (KDE) plots to estimate the general distribution of each data feature. KDE plots were plotted for each feature/column in both the **original-type** and **Fitbit-type** datasets. While some features, such as eosinophil and basophil counts from the selected liquid biopsy, showed high separation in the distribution of benign and malignant patient data, a large number of other features displayed high similarity between both benign and malignant patient data. This is a trait which foreshadowed the inconclusive findings after model evaluation.
+The primary method of exploratory data analysis was the usage of kernel density estimation (KDE) plots to estimate the general distribution of each data feature. KDE plots were plotted for each feature/column in both the **original-type** and **Fitbit-type** datasets. While some features, such as *eosinophil counts* and *basophil counts* from the selected liquid biopsy data, showed high separation in the distribution of benign and malignant patient data, a large number of other features displayed high similarity between both benign and malignant patient data. This is a trait which foreshadowed the inconclusive findings after model evaluation.
 </p>
 
 <h3>Model Training and Evaluation</h3>

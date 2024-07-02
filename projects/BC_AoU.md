@@ -46,6 +46,5 @@ The primary method of exploratory data analysis was the usage of kernel density 
 
 
 <h3>Links</h3>
-- View the [full project report] (documents/DY_JEREMIAH_SENIORPROJECT.pdf)
-- Visit the [All of Us Research Program homepage] (https://allofus.nih.gov/)
-- View the full project write-up, including source code, <a href="../documents/BC_class_in_R_report.html">here</a>.
+- View the <a href="../documents/DY_JEREMIAH_SENIORPROJECT.pdf">full project report</a>.
+- Visit the <a href="https://allofus.nih.gov/">All of Us Research Program homepage</a>.

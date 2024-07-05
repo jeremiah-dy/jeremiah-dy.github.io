@@ -16,21 +16,29 @@ labels:
   - Gradient boosting models
 summary: "The All of Us program is a program organized by the (United States) National Institute of Health which serves to aggregate, anonymize, and make available patient health data for research projects. Using the All of Us database, I built several classification models to predict malignancy in breast cancer patients, as well as compare differences in model performance between two differentiated dataset groups."
 ---
+<div>
 <h3>Purpose and Overview</h3>
 This project was my Honors undergraduate thesis at the University of Hawai’i at Mānoa, in which I used Python to prepare and analyze publicly available breast cancer patient data to train machine learning (ML) models to predict the malignancy of these patients. The data was sourced using the All of Us program, a program organized by the (United States) National Institute of Health which serves to aggregate, anonymize, and make available patient health data for research projects. This project can be separated into three major stages: data cleaning and preparation, exploratory data analysis, and model training and evaluation. The machine learning model types used in this study were imported from the sklearn library and include: multilayer perceptron, support vector machine classifier, random forest, Adaboost classifier, and gradient boosting classifier. Please note that this webpage serves to summarize the main points of the project; for a more detailed description of background research, methodology, and results the full project write-up is linked at the bottom of the page. Lastly, I want to especially thank my primary mentor, Dr. Peter Washington, and my committee member, Dr. Mahdi Belcaid, for providing their scholarly insight and support during this project.
+</div>
 
+<div>
 <h3>Specific Aims</h3>
 - This project had two main goals:
   - To successfully train a good ML classification model. The criteria of success was an AUC-ROC score of 0.85 or higher
   - To compare the performance difference between ML models trained on two different types of datasets. The first type would have a comparatively larger number of observations but smaller number of features, while the second type would have the opposite (smaller number of observations but more features). For future reference, datasets in the first type will be referred to as **original-type**, while datasets in the second type will be referred to as **Fitbit-type** since Fitbit data was used to construct them.
+</div>
 
+<div>
 <h3>Dataset Source</h3>
 - For this project, I used anonymized patient data available via the All of Us Program. More specifically, this project uses the All of Us Registered Tier Dataset v7. Quantitative cardiovascular health and liquid biopsy data from both benign and malignant patients was used to construct the bulk of the training dataset. Due to the large number of entries, data was aggregated on a per-patient/per-year basis. For example, if patient 001 has entries in the years 2000, 2001, 2003, and 2006, they would have four separate entries. This stage was the construction of the raw **original-type** dataset.
 - Additionally, Fitbit data was merged onto applicable rows in the **original-type** datasets. Applicable Fitbit data used in the study included: sleep, heart rate, activity-minutes, and caloric usage data. This stage was the construction of the raw **Fitbit-type** dataset. Since the relevant Fitbit data available was much smaller in volume compared to the cardiovascular and liquid biopsy data, the raw **Fitbit-type** dataset was approximately one-fifth the size of the raw **original-type** dataset.
+</div>
 
+<div>
 <h3>Data Cleaning and Preparation</h3>
 - After sourcing the raw data for the **original-type** and **Fitbit-type** datasets, the next step was data cleaning and preparation. This process was performed on both datasets and included transposing rows/columns, type validation and/or coercion, removal of irrelevant data (such as metadata in each row), and dummy variable creation when needed. As many rows of data had missing/null values, imputation was necessary. Three different imputer models were imported from the sklearn library and used for this task. The sklearn imputer models used included: SimpleImputer, KNNImputer, and IterativeImputer. Additionally each imputer model was used twice, first with imputing only missing/null values and the second with interpreting zero values as null. After imputation, there were 12 different training datasets, 6 of either the **original-type** or the **Fitbit-type**.
 - Additionally, a small portion of the data that contained cardiovascular health, liquid biopsy, and Fitbit data was extracted and used to construct a validation dataset for model evaluation later in the project. As the validation dataset contained null/missing values as well, imputation was performed on the validation dataset separately but using the same imputation method as the training dataset for any specific model. For example, if a ML model was trained on an **original-type** dataset with KNN imputation, then the validation dataset would be filtered to contain only cardiovascular health and liquid biopsy data and undergo KNN imputation.
+</div>
 
 <h3>Exploratory Data Analysis</h3>
 The primary method of exploratory data analysis was the usage of kernel density estimation (KDE) plots to estimate the general distribution of each data feature. KDE plots were plotted for each feature/column in both the **original-type** and **Fitbit-type** datasets. While some features, such as *eosinophil counts* and *basophil counts* from the selected liquid biopsy data, showed high separation in the distribution of benign and malignant patient data, a large number of other features displayed high similarity between both benign and malignant patient data. This is a trait which foreshadowed the inconclusive findings after model evaluation.

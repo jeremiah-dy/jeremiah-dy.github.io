@@ -18,7 +18,7 @@ summary: "The All of Us program is a program organized by the (United States) Na
 ---
 <h3>Purpose and Overview</h3>
 
-  <figure class="figure w-20 float-start m-2">
+  <figure class="figure w-20 float-end m-2">
     <img class="img-fluid" src="../img/projects/BC_AoU/aou_logo.png" alt="All of Us Program Logo">
   </figure>
   

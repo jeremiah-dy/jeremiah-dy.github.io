@@ -16,10 +16,12 @@ labels:
   - Gradient boosting models
 summary: "The All of Us program is a program organized by the (United States) National Institute of Health which serves to aggregate, anonymize, and make available patient health data for research projects. Using the All of Us database, I built several classification models to predict malignancy in breast cancer patients, as well as compare differences in model performance between two differentiated dataset groups."
 ---
+<h3>Purpose and Overview</h3>
+
   <figure class="figure w-20 float-start m-2">
     <img class="img-fluid" src="../img/projects/BC_AoU/aou_logo.png" alt="All of Us Program Logo">
   </figure>
-<h3>Purpose and Overview</h3>
+  
 This project was my Honors undergraduate thesis at the University of Hawai’i at Mānoa, in which I used Python to prepare and analyze publicly available breast cancer patient data to train machine learning (ML) models to predict the malignancy of these patients. The data was sourced using the All of Us program, a program organized by the (United States) National Institute of Health which serves to aggregate, anonymize, and make available patient health data for research projects. This project can be separated into three major stages: data cleaning and preparation, exploratory data analysis, and model training and evaluation. The machine learning model types used in this study were imported from the sklearn library and include: multilayer perceptron, support vector machine classifier, random forest, Adaboost classifier, and gradient boosting classifier. Please note that this webpage serves to summarize the main points of the project; for a more detailed description of background research, methodology, and results the full project write-up is linked at the bottom of the page. Lastly, I want to especially thank my primary mentor, Dr. Peter Washington, and my committee member, Dr. Mahdi Belcaid, for providing their scholarly insight and support during this project.
 
 <h3>Specific Aims</h3>

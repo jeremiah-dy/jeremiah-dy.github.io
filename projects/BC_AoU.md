@@ -73,11 +73,11 @@ The primary method of exploratory data analysis was the usage of kernel density 
 <br>
 - As can be seen in the data table provided, all of the 60 trained models had low AUC-ROC scores which is indicative of poorly performing classification models. Additionally, the boxplots provided below show two distributions of the probability scores of the SVC models used in the calculation of the AUC-ROC score. Both plots show very little separation between the benign and malignant class, which is indicative of the low discerning power of the model type and partly explains the low AUC-ROC scores. It is important to note that the SVC models on average had the most separation between the beningn and malignant classes, when viewed using these boxplots as evaluation. It then stands to infer that the other models (RF, MLP, Ada, GB) have more highly similar distributions between the binary classes, indicative of even worse classification power of the corresponding models.
 <div>
-  <figure class="figure w-10 float-start m-2">
-    <img class="img-fluid" src="../img/projects/BC_AoU/boxplot_svc_fitbit.png" alt="Boxplot of Classification Scores: SVC Nonzero KNN Fitbit-Type">
+  <figure class="figure float-start m-2">
+    <img class="img-fluid" src="../img/projects/BC_AoU/boxplot_svc_fitbit.png" alt="Boxplot of Classification Scores: SVC Nonzero KNN Fitbit-Type" style="height:50%">
   </figure>
-  <figure class="figure w-10 float-end m-2">
-    <img class="img-fluid" src="../img/projects/BC_AoU/boxplot_svc_labs.png" alt="Boxplot of Classification Scores: SVC Nonzero Median Original-Type">
+  <figure class="figure float-end m-2">
+    <img class="img-fluid" src="../img/projects/BC_AoU/boxplot_svc_labs.png" alt="Boxplot of Classification Scores: SVC Nonzero Median Original-Type" style="height:50%">
   </figure>
 </div>
 <br>

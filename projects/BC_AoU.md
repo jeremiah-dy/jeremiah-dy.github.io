@@ -47,11 +47,37 @@ The primary method of exploratory data analysis was the usage of kernel density 
 
 <h3>Model Training and Evaluation</h3>
 - The five *sklearn* machine learning classifier models used in this project included: multilayer perceptron (MLP), support vector machine classifier (SVC), random forest (RF), adaboost (Ada), and gradient boosting machine (GB). Each of these five models were trained on each of the twelve different datasets (six of the **original-type** and six of the **Fitbit-type**) resulting in 60 total models trained. The classifications metrics derived from evaluating the model performance on the unseen validation dataset are detailed below. Models trained on **Fitbit-type** datasets have names colored in gold, models trained on **original-type** datasets have names colored in gray. Likewise, model type is color-coded as violet, blue, green, red, and orange according to MLP, SVC, RF, Ada, and GB model respectively. Classification metrics evaluated were accuracy, precision, recall, F1 score, and AUC-ROC score.
-- As can be seen in the data table provided, all of the 60 trained models had low AUC-ROC scores which is indicative of poorly performing classification models. These boxplots show the distribution of probability scores used in the calculation of the AUC-ROC score. Both plots show very little separation between the benign and malignant class, which is indicative of the low discerning power of the model type and partly explains the low AUC-ROC scores. The other model types also display this behavior, to more highly similar extents.
 
 <div>
   <figure class="figure w-40 float-start m-2">
     <img class="img-fluid" src="../img/projects/BC_AoU/model_performance_github.png" alt="Model Performance Table">
+  </figure>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+- As can be seen in the data table provided, all of the 60 trained models had low AUC-ROC scores which is indicative of poorly performing classification models. Additionally, the boxplots provided below show two distributions of the probability scores of the SVC models used in the calculation of the AUC-ROC score. Both plots show very little separation between the benign and malignant class, which is indicative of the low discerning power of the model type and partly explains the low AUC-ROC scores. It is important to note that the SVC models on average had the most separation between the beningn and malignant classes, when viewed using these boxplots as evaluation. It then stands to infer that the other models (RF, MLP, Ada, GB) have more highly similar distributions between the binary classes, indicative of even worse classification power of the corresponding models.
+<div>
+  <figure class="figure w-30 float-start m-2">
+    <img class="img-fluid" src="../img/projects/BC_AoU/boxplot_svc_fitbit.png" alt="Boxplot of Classification Scores: SVC Nonzero KNN Fitbit-Type">
+  </figure>
+  <figure class="figure w-30 float-end m-2">
+    <img class="img-fluid" src="../img/projects/BC_AoU/boxplot_svc_labs.png" alt="Boxplot of Classification Scores: SVC Nonzero Median Original-Type">
   </figure>
 </div>
 <br>

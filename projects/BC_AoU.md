@@ -77,7 +77,7 @@ The primary method of exploratory data analysis was the usage of kernel density 
     <img class="img-fluid" src="../img/projects/BC_AoU/boxplot_svc_fitbit.png" alt="Boxplot of Classification Scores: SVC Nonzero KNN Fitbit-Type" style="height:50%">
   </figure>
   <figure class="figure float-end m-2">
-    <img class="img-fluid" src="../img/projects/BC_AoU/boxplot_svc_labs.png" alt="Boxplot of Classification Scores: SVC Nonzero Median Original-Type" style="height=100">
+    <img class="img" src="../img/projects/BC_AoU/boxplot_svc_labs.png" alt="Boxplot of Classification Scores: SVC Nonzero Median Original-Type" style="height:50%">
   </figure>
 </div>
 <br>

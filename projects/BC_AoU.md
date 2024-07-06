@@ -57,8 +57,8 @@ The primary method of exploratory data analysis was the usage of kernel density 
     <img class="img-fluid" src="../img/projects/BC_AoU/aou_logo.png" alt="All of Us Program Logo">
   </figure>
 </div>
-
-
+<br>
+<br>
 - However, it is interesting to note that models trained on the more complex **Fitbit-type** datasets have high recall. This effect could then be leveraged to use these models, or modifications thereof, to be used as screening tools rather than as diagnostic tools. Of course, there is also the possibility that these high recall scores are indicative of overfitting, which is a problem that should be looked at in any future iterations of this project.
 
 <h3>Conclusions and Personal Takeaways</h3>

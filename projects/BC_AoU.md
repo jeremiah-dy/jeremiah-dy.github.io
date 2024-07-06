@@ -51,10 +51,7 @@ The primary method of exploratory data analysis was the usage of kernel density 
 
 <div>
   <figure class="figure w-40 float-start m-2">
-    <img class="img-fluid" src="../img/projects/BC_AoU/model_performance_1_github.png" alt="First Half Model Performance Table">
-  </figure>
-  <figure class="figure w-40 float-end m-2">
-    <img class="img-fluid" src="../img/projects/BC_AoU/model_performance_2_github.png" alt="Second Half Model Performance Table">
+    <img class="img-fluid" src="../img/projects/BC_AoU/model_performance_github.png" alt="Model Performance Table">
   </figure>
 </div>
 <br>

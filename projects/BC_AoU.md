@@ -50,13 +50,29 @@ The primary method of exploratory data analysis was the usage of kernel density 
 - As can be seen in the data table provided, all of the 60 trained models had low AUC-ROC scores which is indicative of poorly performing classification models. These boxplots show the distribution of probability scores used in the calculation of the AUC-ROC score. Both plots show very little separation between the benign and malignant class, which is indicative of the low discerning power of the model type and partly explains the low AUC-ROC scores. The other model types also display this behavior, to more highly similar extents.
 
 <div>
-  <figure class="figure w-40 float-start m-2">
-    <img class="img-fluid" src="../img/projects/BC_AoU/aou_logo.png" alt="All of Us Program Logo">
+  <figure class="figure w-50 float-start m-2">
+    <img class="img-fluid" src="../img/projects/BC_AoU/model_performance_1_github.png" alt="First Half Model Performance Table">
   </figure>
-  <figure class="figure w-40 float-end m-2">
-    <img class="img-fluid" src="../img/projects/BC_AoU/aou_logo.png" alt="All of Us Program Logo">
+  <figure class="figure w-50 float-end m-2">
+    <img class="img-fluid" src="../img/projects/BC_AoU/model_performance_2_github.png" alt="Second Half Model Performance Table">
   </figure>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 - However, it is interesting to note that models trained on the more complex **Fitbit-type** datasets have high recall. This effect could then be leveraged to use these models, or modifications thereof, to be used as screening tools rather than as diagnostic tools. Of course, there is also the possibility that these high recall scores are indicative of overfitting, which is a problem that should be looked at in any future iterations of this project.

@@ -15,20 +15,21 @@
     ]
   },
   "interests": [
-    { "name": "Data Science" },
     { "name": "Software Engineering" },
+    { "name": "Data Engineering" },
+    { "name": "Data Science" },
     { "name": "Machine Learning" },
     { "name": "Database Management" },
-    { "name": "High Performance Computings" }
+    { "name": "High Performance Computing" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "R", "C++", "SQL", "Java", "Javascript", "AFSIM", "HTML & CSS" ]
+      "keywords": [ "Python", "R", "C++", "MySQL", "Java", "JavaScript", "AFSIM", "HTML & CSS" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "Git/GitHub/Gitlab", "Microsoft Office" ]
+      "keywords": [ "MacOS", "Windows", "GitHub", "GitLab", "Microsoft Office" ]
     }
   ],
   "education": [

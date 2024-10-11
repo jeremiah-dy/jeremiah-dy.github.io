@@ -17,7 +17,6 @@
   "interests": [
     { "name": "Software Engineering" },
     { "name": "Data Engineering" },
-    { "name": "Data Science" },
     { "name": "Machine Learning" },
     { "name": "Database Management" },
     { "name": "High Performance Computing" }
@@ -41,9 +40,11 @@
       "endDate": "2024-05-11",
       "courses": [
         "Software Engineering",
-        "Data Preprocessing and Analysis",
-        "Machine Learning",
-        "Algorithms"
+        "Database Systems",
+        "Machine Learning Methods & Fundamentals",
+        "Algorithms (Data Structures & Algorithms)",
+        "Network Science Methodology",
+        "Big Data Analytics"
       ]
     }
   ],

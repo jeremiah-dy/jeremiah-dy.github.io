@@ -56,9 +56,11 @@
       "endDate": "2024-03-22",
       "summary": "Computer science intern primarily focused on developing C-based and Python scripts",
       "highlights": [
-        "Utilize AFSIM software to create extensible models and simulation output data",
-        "Develop Python scripts to run large design of experiments",
-        "Leverage a high-performance computing cluster to run large jobs in parallel",
+        "Utilized AFSIM software to create extensible models and simulation output data",
+        "Developed Python scripts to run large design of experiments",
+        "Applied genetic algorithm concepts to iteratively construct higher-scoring experiment simulations",
+        "Deployed a high-performance computing cluster to run large jobs in parallel",
+        "Leveraged GitLab to manage version control and software development lifecycle"
       ]
     },
     {
@@ -70,8 +72,8 @@
       "summary": "Team leader and on-shift manager",
       "highlights": [
         "Promoted from previous Shift Leader position",
-        "Organize and maintain inventory",
-        "Teach new employees the basic recipes and skills",
+        "Organized and maintain inventory",
+        "Teached new employees the basic recipes and skills",
         "Customer service and conflict resolution"
       ]
     },

@@ -25,7 +25,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "R", "C++", "MySQL", "Java", "JavaScript", "AFSIM", "HTML & CSS" ]
+      "keywords": [ "Python", "R", "C++", "MySQL", "Java", "JavaScript", "AFSIM", "HTML & CSS", "Apache Spark", "Apache Airflow" ]
     },
     {
       "name": "Toolsets/OS",

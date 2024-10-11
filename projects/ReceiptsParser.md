@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/projects/ReceiptsParser/chatgpt4_logo_square.png
-title: "Receipts Parser using ChatGPT"
+title: "Receipts Parser using ChatGPT 4.0"
 date: 2023-12-11
 published: true
 labels:
